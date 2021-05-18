@@ -1,5 +1,6 @@
 import Stories from "./Stories";
 import InputBox from "./InputBox";
+import Posts from "./Posts";
 
 function NewsFeed() {
   return (
@@ -7,9 +8,8 @@ function NewsFeed() {
       <div className="mx-auto max-w-md md:max-w-lg">
         <Stories />
         <InputBox />
+        <Posts />
       </div>
-      {/**Stories */}
-      {/**Stories */}
     </div>
   );
 }
