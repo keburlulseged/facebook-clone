@@ -1,13 +1,20 @@
-import Head from 'next/head'
+import Head from "next/head";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
-    <div >
+    <div>
       <Head>
         <title>Facebook</title>
       </Head>
 
-      <h1>Test</h1>
+      <Header />
+
+      <main>
+        {/** Sidebar */}
+        {/** Content */}
+        {/** Widgets */}
+      </main>
     </div>
-  )
+  );
 }
