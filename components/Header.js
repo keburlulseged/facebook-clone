@@ -58,7 +58,7 @@ function Header() {
           height="40"
           layout="fixed"
         />
-        <p className="font-semibold pr-3 whitespace-nowrap">Kebur Lulseged</p>
+        <p className="font-semibold pr-3 whitespace-nowrap">{session.user.name}</p>
         <ViewGridIcon className="icon" />
         <ChatIcon className="icon" />
         <BellIcon className="icon" />
